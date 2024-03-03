@@ -1,0 +1,71 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    margin: 25px;
+    padding: 80px;
+   
+  }
+
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  header img {
+    width: 20%;
+    margin-right: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  .background {
+    width: 40%;
+    display: center;
+    float: right;
+  }
+  main {
+    margin: 20px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 20px red;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    margin: 25px;
+    padding: 80px;
+    /* background: url('../images/mee.jpg') no-repeat center ;
+    background-size: cover;
+    background-position: center center; */
+  }
+  h3 {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    font-weight: bolder;
+  }
+  
