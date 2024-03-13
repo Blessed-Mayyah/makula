@@ -4,15 +4,33 @@ body {
     
 }
 header {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    text-align: center;
-  }
-  header img {
-    width: 20%;
-    margin-right: 10px;
-  }
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+header img {
+  width: 20%;
+  margin-right: 10px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff8c00;
+}
 
 .container {
     max-width: 600px;
